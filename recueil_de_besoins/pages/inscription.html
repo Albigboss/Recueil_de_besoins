@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Inscription-Les P'tits Loups</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img src="../images/logo-Les-Ptits-Loups.png" alt="Logo de la crèche"></a>
+
+        <nav>
+            <ul>
+                <li><a class="lien_menu" href="../index.html">Accueil</a></li>
+                <li ><a class="lien_menu" href="menu.html">Menu</a></li>
+                <li ><a class="lien_menu" href="horaire.html">Horaires</a></li>
+                <li ><a class="lien_menu" href="contact.html">Contact</a></li>
+                <li class="li_connexion"><a class="connexion" href="connexion.html">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Créer un compte :</h1>
+        <form class="form" method="POST">
+
+            <div class="contenu-form">
+                <label for="nom">Nom :</label>
+                <input class="contact-input" type="text" name="nom" id="nom" placeholder="Entrez votre nom" required>
+            </div>
+
+            <div class="contenu-form">
+                <label for="prenom">Prénom :</label>
+                <input class="contact-input" type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom" required>
+            </div>
+
+            <div class="contenu-form">
+                <label for="email">Email :</label>
+                <input class="contact-input" type="email" id="email" name="email" placeholder="exemple@domaine.com" required>
+            </div>
+
+            <div class="contenu-form">
+                <label for="tel">Téléphone :</label>
+                <input class="contact-input" type="tel" id="tel" name="telephone" placeholder="0123456789">
+            </div>
+
+            <div class="contenu-form">
+                <label for="Password">Mot de passe :</label>
+                <input class="contact-input" type="Password" id="Password" name="Password" placeholder="mot de passe">
+            </div>
+
+            <div class="contenu-form">
+                <button type="submit" class="submit-contact">CRÉER UN COMPTE</button>
+            </div>
+        </form>
+        <div class="pas_de_compte">
+            <p>Vous avez déjà un compte ?</p>
+            <a class="bold" href="connexion.html">Cliquez ici pour vous connecter</a>
+        </div>
+    </main>
+    <footer class="footer_index">
+        <section class="contact_footer">
+            <p>Une demande, une question, un renseignement ?</p>
+            <ul class="footer_ul">
+                <li>Adresse : 18 rue des colliberts 17000, La Rochelle</li>
+                <li>Téléphone : 06 06 06 06 06</li>
+                <li>Mail : crèchelesptitsloups@gmail.com </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
